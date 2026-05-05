@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX To-Do (Inline Edit)</title>
+    <link rel="stylesheet" href="../../bs5/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-7 card p-4 shadow">
+                <h3 class="text-center mb-4">Task Manager</h3>
+                
+                <!-- Add Task Section -->
+                <div class="input-group mb-4">
+                    <input type="text" id="taskInput" class="form-control" placeholder="What needs to be done?">
+                    <button class="btn btn-success" onclick="addTask()">Add Task</button>
+                </div>
+
+                <!-- Task List Container -->
+                <ul id="taskList" class="list-group">
+                    <!-- Tasks injected here as textboxes -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
