@@ -1,0 +1,13 @@
+/* Ensure images are uniform and fit within cells */
+.product-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Optional: add some padding to the table */
+.table th, .table td {
+    padding: 15px;
+    font-family:  'Arial Narrow Bold';
+}
